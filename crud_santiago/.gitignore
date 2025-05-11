@@ -1,0 +1,48 @@
+# dependencias
+node_modules/
+packege-lock.js
+
+#archivos de entorno
+.env.local
+.env.*.local
+
+#logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#directorios de runtime
+dist/
+build/
+tmp/
+temp/
+
+# archivos de sistema
+.DS_Store
+Thumbs.debug
+
+#directorios y archivos de IDE/editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# archivos de debug
+.debug
+debug.log
+
+#archivos de covertura
+coverage/
+
+#archivos de uploads
+uploads/*
+!uploads/.gitkeep
+
+# otros
+*.pid
+*.seed
+*.pid.lock
